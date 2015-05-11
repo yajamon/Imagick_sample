@@ -20,6 +20,8 @@
 		}
 		
 		closedir($handle);
+		
+		sort($fileList);
 		return $fileList;
 	}
 ?>
