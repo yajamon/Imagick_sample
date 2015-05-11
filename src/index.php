@@ -33,7 +33,7 @@
 	<h1>Imagick samples</h1>
 	<ul>
 		<?php foreach($fileNames as $name): ?>
-			<li><a href="<?php echo ".{$targetPath}/$name"?>">$name</a></li>
+			<li><a href="<?php echo ".{$targetPath}/$name"?>"><?php echo $name ?></a></li>
 		<?php endforeach; ?>
 	</ul>
 </body>
